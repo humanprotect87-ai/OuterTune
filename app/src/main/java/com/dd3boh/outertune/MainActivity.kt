@@ -10,6 +10,7 @@
 package com.dd3boh.outertune
 
 import android.annotation.SuppressLint
+import com.dd3boh.outertune.ui.component.ultraGlass
 import android.app.NotificationManager
 import android.content.Intent
 import android.os.Build
@@ -357,7 +358,7 @@ class MainActivity : ComponentActivity() {
                 BoxWithConstraints(
                     modifier = Modifier
                         .fillMaxSize()
-                        .background(MaterialTheme.colorScheme.surface)
+                        .ultraGlass()
                 ) {
                     val maxW = maxWidth
                     Log.v(MAIN_TAG, "RC-2.2")
