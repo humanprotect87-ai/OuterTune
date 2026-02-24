@@ -19,7 +19,7 @@ jobs:
 
       - run: chmod +x gradlew
 
-      - run: ./gradlew assembleDebug
+      - run: ./gradlew build 
 
       - uses: actions/upload-artifact@v4
         with:
